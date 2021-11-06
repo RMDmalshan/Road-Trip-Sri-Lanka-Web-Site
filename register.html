@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ROAD TRIP SRILANKA </title>
+
+<style type="text/css">
+
+<style>
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+  overflow: hidden;
+  background-color:#ABA3A3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+   
+}
+
+.nav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+   
+}
+
+.nav a:hover {
+  background-color:#719DAC;
+  color: black;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+body{
+	background-image: url(../image/iii.jpg);
+	background-size:cover;
+	
+	
+}
+
+.formali{
+   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  }
+.container{
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.container .title{
+  font-size: 40px;
+  font-weight: 500;
+  position: relative;
+  color:#E50C10;
+}
+
+/*This is span the text*/
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+/* Input box size*/
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+
+/*Box size*/
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+
+ form .button{
+   height: 45px;
+   margin: 35px 0
+ }
+ form .button input{
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background-color:#DB4245;
+ }
+
+
+
+</style>
+</head>
+
+
+
+<body>
+<div class="nav">
+  <nav>
+  <img src="../image/road trip final logo.png" width="150" height="80">
+ <a class="active" href="gallery.html">Gallery</a>
+ <a class="active" href="contactus.html">Contact Us</a>
+ <a class="active" href="register.html">Register</a>
+ <a class="active" href="login.php">Login</a>
+  <a class="active" href="packages.php"> Packages</a>
+ <a class="active" href="aboutus.html"> About Us</a>
+ <a class="active" href="home.html">Home</a></nav>
+</div>
+
+
+<div class="formali">
+<div class="container">
+    <center><div class="title">Registration Form</div></center>
+    <div class="content">
+      <form name="userdata" action="insert.php" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input name="fullname" type="text" required id="fullname" placeholder="Enter your name">
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input name="username" type="text" required id="username" placeholder="Enter your username">
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input name="email" type="text" required id="email" placeholder="Enter your email">
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input name="phonenumber" type="text" required id="phonenumber" placeholder="Enter your number">
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input name="password" type="password" required id="password" placeholder="Enter your password">
+          </div>
+          <div class="input-box">
+            <span class="details">Country</span>
+            <input name="country" type="text" required id="country" placeholder="Enter your country">
+          </div>
+        </div>
+        <div class="button">
+          <input name="submit" type="submit" id="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
